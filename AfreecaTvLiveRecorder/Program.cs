@@ -41,8 +41,10 @@ namespace AfreecaTvLiveRecorder
 
                 if (instance != null)
                 {
+                    //使已运行的程序最前端显示
                     SetForegroud(instance);
 
+                    //退出本程序 仅执行一个实例
                     Application.Exit();
                 }
             }
